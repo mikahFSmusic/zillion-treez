@@ -1,5 +1,5 @@
 import './App.css';
-import { Background } from './modules/background';
+import { Background } from './modules/landingPage/background';
 
 function App() {
   return (
