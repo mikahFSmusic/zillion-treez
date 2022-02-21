@@ -6,6 +6,7 @@ const useBackgroundStyles = makeStyles((theme: Theme) => createStyles({
     width: "100%",
     height: "100%",
     backgroundImage: `url(${require("./assets/background.jpg")})`,
+    backgroundSize: "cover",
   }
 }));
 
