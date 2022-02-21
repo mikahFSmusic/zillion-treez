@@ -1,7 +1,7 @@
-import { createStyles, makeStyles, Theme } from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core";
 
 
-const useBackgroundStyles = makeStyles((theme: Theme) => createStyles({
+const useBackgroundStyles = makeStyles(() => createStyles({
   root: {
     width: "100%",
     height: "100%",

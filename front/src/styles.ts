@@ -4,10 +4,6 @@ const useAppStyles = makeStyles(() => ({
   root: {
     width: "100vw",
     height: "100vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "start",
-    alignItems: "left",
   },
   background: {
     position: "absolute",
@@ -18,12 +14,37 @@ const useAppStyles = makeStyles(() => ({
     opacity: 0.9,
     objectFit: "contain",
   },
+  content: {
+    width: "100%",
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+  },
   text: {
-    zIndex: 100,
+    zIndex: 100, 
     color: "white",
     padding: "20px",
     margin: "10px",
-    marginTop: "50px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "start",
+  },
+
+  socialLinksContainer: {
+    justifySelf: "end",
+    alignSelf: "end",
+    alignItems: "end",
+    zIndex: 100,
+  },
+  footer: { 
+    display: "inline-flex",
+    zIndex: 100,
+    height: "60px",
+    width: "100%",  
+    justifyContent: "end",
+    position: "absolute",
+    bottom: 0,
   }
 }));
 export default useAppStyles;
